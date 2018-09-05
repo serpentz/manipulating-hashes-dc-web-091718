@@ -11,6 +11,8 @@ arr = []
   groceries.values.each do |x|
       x.each do |item|
           arr << item
+        end
+      end
 
 
 arr
