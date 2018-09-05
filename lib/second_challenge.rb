@@ -8,10 +8,10 @@ def second_challenge
 
   #code your solution here!
 arr = []
-  groceries.values.each do {|x|
-      x.each { |item|
+  groceries.values.each do |x|
+      x.each do |item|
           arr<<item
-       }
-  }
+
+
 arr
 end
